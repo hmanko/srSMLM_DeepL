@@ -51,10 +51,10 @@ def set_coordinates(i, half_width, loc_sp_distance, sp_image_width):
     row = np.array(where(cluster == i))
     ## coordinates for localization part
     loc_sp_distance = loc_sp_distance+random.randint(-10,20)  
-    shift_y = random.randint(-6,6)   ##    shift for x and y coordinates. To move the box around localization
-    shift_x = random.randint(-6,6)   ##
-   # shift_y = 0   ##      if shift is not requires. When we need to create patches 
-   # shift_x = 0   ##
+    shift_y = 0
+    #random.randint(-6,6)   ##    shift for x and y coordinates. To move the box around localization
+    shift_x = 0
+    #random.randint(-6,6)   ##
     y1 = int(dat[np.array(row)[0,0],0]-half_width-shift_y)   #   start y-coordinate of the box around localization
     y2 = int(dat[np.array(row)[0,0],0]+half_width-shift_y)   #   end y-coordinate of the box around localization
     x1 = int(dat[np.array(row)[0,0],1]-half_width-shift_x)   #   start x-coordinate of the box around localization
