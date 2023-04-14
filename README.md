@@ -1,6 +1,6 @@
 # SR-SMLM_DeepL
 
-This is a code to create a training set and train a U-neе-based network to improve srSMLM technique performance
+This is a code to create a training set and train a U-net-based network to improve srSMLM technique performance
 
 ### Described in Manko et al. 2022
 
