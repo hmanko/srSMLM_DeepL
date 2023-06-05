@@ -2,20 +2,19 @@
 
 This is a code to create a training set and train a U-net-based network to improve srSMLM technique performance
 
-### Described in Manko et al. 2022
+### Described in Manko et al. 2023
 
 *Advancing Spectrally-Resolved Single Molecule Localization Microscopy with Deep Learning*
 
 
-[https://doi.org/10.1101/2022.07.29.502097](https://doi.org/10.1101/2022.07.29.502097)
+[https://doi.org/10.1002/smll.202300728](https://doi.org/10.1002/smll.202300728)
 
  
 ```
-@article{manko2022advancing,
+@article{manko2023advancing,
   title={Advancing Spectrally-Resolved Single Molecule Localization Microscopy using Deep Learning},
   author={Manko, Hanna and M{\'e}ly, Yves and Godet, Julien},
-  journal={bioRxiv},
-  year={2022},
-  publisher={Cold Spring Harbor Laboratory}
+  journal={Small},
+  year={2023},
 }
 ```
