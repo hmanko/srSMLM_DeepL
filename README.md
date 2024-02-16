@@ -16,5 +16,9 @@ This is a code to create a training set and train a U-net-based network to impro
   author={Manko, Hanna and M{\'e}ly, Yves and Godet, Julien},
   journal={Small},
   year={2023},
+  volume = {19},
+  number = {33},
+  pages = {2300728},
+  doi = {https://doi.org/10.1002/smll.202300728},
 }
 ```
